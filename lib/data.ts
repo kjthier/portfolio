@@ -1,9 +1,8 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
-import { LuGraduationCap } from 'react-icons/lu'
-import memeGen from '@/public/memeGen.png'
-import portfolioImg from '@/public/portfolioimg.png'
+import memeGen from '@/public/meme-gen.png'
+import portfolioImg from '@/public/portfolio-img.png'
 import danceEduImg from '@/public/dance-edu-img.png'
 
 export const links = [
