@@ -35,7 +35,7 @@ export const links = [
 export const experiencesData = [
     {
         title: 'Project Manager',
-        location: 'East Hartford, Connecticut',
+        location: 'East Hartford, USA',
         description:
             'Coordinated and planned large-scale, multi-language translation projects across diverse sectors, including the pharmaceutical industry.',
         icon: React.createElement(CgWorkAlt),
@@ -43,7 +43,7 @@ export const experiencesData = [
     },
     {
         title: 'Project Coordinator',
-        location: 'Wethersfield, Connecticut',
+        location: 'Wethersfield, USA',
         description:
             'Collaborated with private clients to design and quote home remodeling projects, and handled bookkeeping, payroll, and purchasing.',
         icon: React.createElement(CgWorkAlt),
@@ -51,7 +51,7 @@ export const experiencesData = [
     },
     {
         title: 'Communications Director',
-        location: 'Peru / Remote',
+        location: 'Iquitos, Peru / Remote',
         description:
             'Led program development, medical intake, communications, and booking teams for the largest plant medicine retreat center in Latin America.',
         icon: React.createElement(CgWorkAlt),
@@ -75,6 +75,7 @@ export const projectsData = [
         tags: ['React', 'CSS', 'Radix', 'MongoDB', 'Express'],
         imageUrl: danceEduImg,
         linkToApp: 'https://dance-edu.netlify.app/auth',
+        githubLink: 'https://github.com/kjthier/dance-edu',
     },
     {
         title: 'Personal Portfolio',
@@ -82,7 +83,8 @@ export const projectsData = [
             'Responsive web resume with fresh, modern UI design. Uses Tailwind, Next.js, and Framer Motion for advanced animations.',
         tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Framer Motion'],
         imageUrl: portfolioImg,
-        linkToApp: 'https://github.com/kjthier',
+        linkToApp: 'https://github.com/kjthier/portfolio',
+        githubLink: 'https://github.com/kjthier/portfolio',
     },
     {
         title: 'MemeGen',
@@ -91,6 +93,8 @@ export const projectsData = [
         tags: ['React', 'Material UI', 'JavaScript'],
         imageUrl: memeGen,
         linkToApp: 'https://memegener8tr.netlify.app/',
+        githubLink: 'https://github.com/kjthier/memegenerator',
+        
     },
 ] as const
 
