@@ -34,20 +34,12 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: 'Project Manager',
-        location: 'East Hartford, USA',
+        title: 'WBS Coding School',
+        location: 'Berlin, Germany',
         description:
-            'Coordinated and planned large-scale, multi-language translation projects across diverse sectors, including the pharmaceutical industry.',
-        icon: React.createElement(CgWorkAlt),
-        date: '2006 - 2010',
-    },
-    {
-        title: 'Project Coordinator',
-        location: 'Wethersfield, USA',
-        description:
-            'Collaborated with private clients to design and quote home remodeling projects, and handled bookkeeping, payroll, and purchasing.',
-        icon: React.createElement(CgWorkAlt),
-        date: '2010 - 2014',
+            'Completed a 6-month full-stack web and app development bootcamp.',
+        icon: React.createElement(FaReact),
+        date: '2023',
     },
     {
         title: 'Communications Director',
@@ -58,12 +50,20 @@ export const experiencesData = [
         date: '2014-2022',
     },
     {
-        title: 'WBS Coding School',
-        location: 'Berlin, Germany',
+        title: 'Project Coordinator',
+        location: 'Wethersfield, USA',
         description:
-            'Completed a 6-month full-stack web and app development bootcamp.',
-        icon: React.createElement(FaReact),
-        date: '2023',
+            'Collaborated with private clients to design and quote home remodeling projects, and handled bookkeeping, payroll, and purchasing.',
+        icon: React.createElement(CgWorkAlt),
+        date: '2010 - 2014',
+    },
+    {
+        title: 'Project Manager',
+        location: 'East Hartford, USA',
+        description:
+            'Coordinated and planned large-scale, multi-language translation projects across diverse sectors, including the pharmaceutical industry.',
+        icon: React.createElement(CgWorkAlt),
+        date: '2006 - 2010',
     },
 ] as const
 
@@ -94,7 +94,6 @@ export const projectsData = [
         imageUrl: memeGen,
         linkToApp: 'https://memegener8tr.netlify.app/',
         githubLink: 'https://github.com/kjthier/memegenerator',
-        
     },
 ] as const
 

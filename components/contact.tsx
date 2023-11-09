@@ -35,19 +35,19 @@ export default function Contact() {
                 or through this form.
             </p>
             <form
-        className="mt-10 flex flex-col dark:text-black/80"
-        action={async (formData) => {
-          formRef.current?.reset()
-          const {data, error} = await sendEmail(formData);
+                className='mt-10 flex flex-col dark:text-black/80'
+                action={async (formData) => {
+                    formRef.current?.reset()
+                    const { data, error } = await sendEmail(formData)
 
-          if(error){
-            toast.error(error)
-            return
-          }
-          toast.success("Email sent successfully!")
-        }}
-        ref={formRef}
-      >
+                    if (error) {
+                        toast.error(error)
+                        return
+                    }
+                    toast.success('Email sent successfully!')
+                }}
+                ref={formRef}
+            >
                 <input
                     type='email'
                     name='senderEmail'
