@@ -4,12 +4,14 @@ import { Inter } from 'next/font/google'
 import ActiveSectionContextProvider from '@/context/active-section-context'
 import { Toaster } from 'react-hot-toast'
 import Footer from '@/components/footer'
+import linkPreviewImg from '@/public/link-preview.png'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
     title: 'Karin Gingras',
-    description: 'Full-stack web developer based in Berlin.',
+    description: 'Full-stack web developer based in Berlin',
+    image: linkPreviewImg,
 }
 
 export default function RootLayout({
