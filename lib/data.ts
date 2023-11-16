@@ -71,7 +71,7 @@ export const projectsData = [
     {
         title: 'Dance-edu',
         description:
-            'My final project for WBS Coding School. An evolving web app for dance teachers and students to manage their schedule and training.',
+            'An evolving educational platform for dance teachers and students to manage their schedule and training.',
         tags: ['React', 'CSS', 'Radix', 'MongoDB', 'Express'],
         imageUrl: danceEduImg,
         linkToApp: 'https://dance-edu.netlify.app/auth',
