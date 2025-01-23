@@ -2,8 +2,9 @@ import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
 import memeGen from '@/public/meme-gen.png'
-import portfolioImg from '@/public/portfolio-img.png'
+import portfolioImg from '@/public/portfolio-img2.png'
 import danceEduImg from '@/public/dance-edu-img.png'
+import beArtImg from '@/public/beart-img.png'
 
 export const links = [
     {
@@ -34,23 +35,30 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: 'WBS Coding School',
+        title: 'Co-Founder, b/eArt',
         location: 'Berlin, Germany',
         description:
-            'Completed a 6-month full-stack web and app development bootcamp.',
+            'Business management platform development and coaching for professional visual artists.',
+        icon: React.createElement(FaReact),
+        date: '2024 - current',
+    },
+    {
+        title: 'WBS Coding School',
+        location: 'Berlin, Germany',
+        description: 'Completed a full-stack web and app development bootcamp.',
         icon: React.createElement(FaReact),
         date: '2023',
     },
     {
-        title: 'Communications Director',
+        title: 'Communications Director, Temple of the Way of Light',
         location: 'Iquitos, Peru / Remote',
         description:
             'Led program development, medical intake, communications, and booking teams for the largest plant medicine retreat center in Latin America.',
         icon: React.createElement(CgWorkAlt),
-        date: '2014-2022',
+        date: '2014 - 2022',
     },
     {
-        title: 'Project Coordinator',
+        title: 'Project Coordinator, Crown Colony Construction',
         location: 'Wethersfield, USA',
         description:
             'Collaborated with private clients to design and quote home remodeling projects, and handled bookkeeping, payroll, and purchasing.',
@@ -58,7 +66,7 @@ export const experiencesData = [
         date: '2010 - 2014',
     },
     {
-        title: 'Project Manager',
+        title: 'Project Manager, Corporate Translations',
         location: 'East Hartford, USA',
         description:
             'Coordinated and planned large-scale, multi-language translation projects across diverse sectors, including the pharmaceutical industry.',
@@ -69,9 +77,18 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: 'b/eArt',
+        description:
+            'A business-oriented learning and coaching platform for professional visual artists.',
+        tags: ['Wix Studio'],
+        imageUrl: beArtImg,
+        linkToApp: 'https://www.b-e.art/',
+        githubLink: '',
+    },
+    {
         title: 'Dance-edu',
         description:
-            'An evolving educational platform for dance teachers and students to manage their schedule and training.',
+            'An evolving educational platform for dance teachers and students to manage their schedules and training.',
         tags: ['React', 'CSS', 'Radix', 'MongoDB', 'Express'],
         imageUrl: danceEduImg,
         linkToApp: 'https://dance-edu.netlify.app/auth',
@@ -115,4 +132,6 @@ export const skillsData = [
     'Express',
     'PostgreSQL',
     'Framer Motion',
+    'WordPress',
+    'Wix Studio',
 ] as const

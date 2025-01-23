@@ -19,24 +19,24 @@ export default function About() {
         >
             <SectionHeading>About me</SectionHeading>
             <p className='mb-3'>
-                I'm a passionate and versatile{' '}
-                <span className='font-medium'>full-stack Web Developer</span>{' '}
-                with a diverse background in{' '}
-                <span className='font-medium'>Communications</span> and{' '}
-                <span className='font-medium'>Project Management</span>. An
-                adaptive and growth-oriented professional, my background
-                includes full-stack Web Development Certification with WBS
-                Coding School (Berlin, 2023) and experience in{' '}
+                I'm a versatile{' '}
+                <span className='font-medium'>full-stack developer</span>{' '}
+                with experience in{' '}
                 <span className='font-medium'>JavaScript</span>,{' '}
                 <span className='font-medium'>React</span>,{' '}
                 <span className='font-medium'>Express</span>,{' '}
                 <span className='font-medium'>MongoDB</span>, and{' '}
                 <span className='font-medium'>Node.js</span>.
+                My professional background
+                includes{' '}
+                <span className='font-medium'>leadership</span>,{' '}
+                <span className='font-medium'>project development and management</span>, and{' '}
+                <span className='font-medium'>copywriting and editing</span>.
             </p>
             <p>
-                I have a strong interest in web development, communication and
-                process efficiency, learning, creativity, dance, and wellbeing,
-                and train and perform as a classical and contemporary dancer.
+                I have a strong interest in software and programming, communication,
+                process efficiency, learning, creativity, and wellbeing,
+                and am a classical and contemporary dancer.
             </p>
         </motion.section>
     )

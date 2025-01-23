@@ -61,10 +61,10 @@ export default function Intro() {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <p className='font-bold text-4xl'>
-                    Hey there, I'm Karin Gingras
+                    Hey there, I'm Karin Thier
                 </p>
                 <p className='text-2xl mt-6'>
-                    Full-stack web developer in Berlin{' '}
+                    Full-stack software developer{' '}
                 </p>
             </motion.h1>
             <motion.div
