@@ -40,7 +40,7 @@ export const experiencesData = [
         description:
             'Business management platform development and coaching for professional visual artists.',
         icon: React.createElement(FaReact),
-        date: '2024 - current',
+        date: '2024 - Present',
     },
     {
         title: 'WBS Coding School',
