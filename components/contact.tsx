@@ -26,11 +26,11 @@ export default function Contact() {
                 Please contact me directly at{' '}
                 <a
                     className='underline'
-                    href='mailto:karinjthier@gmail.com'
+                    href='mailto:karingingras@gmail.com'
                     rel='noopener noreferrer'
                     target='_blank'
                 >
-                    karinjthier@gmail.com
+                    karingingras@gmail.com
                 </a>{' '}
                 or through this form.
             </p>

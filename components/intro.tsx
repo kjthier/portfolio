@@ -60,12 +60,8 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <p className='font-bold text-4xl'>
-                    Hey there, I'm Karin Thier
-                </p>
-                <p className='text-2xl mt-6'>
-                    Full-stack software developer{' '}
-                </p>
+                <p className='font-bold text-4xl'>Hey there, I'm Karin Gingras</p>
+                <p className='text-2xl mt-6'>Full-stack software developer </p>
             </motion.h1>
             <motion.div
                 className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
@@ -91,6 +87,8 @@ export default function Intro() {
                     href='/Karin_Gingras_CV.pdf'
                     download
                 >
+                    {' '}
+                    {/* https://novoresume.com/*/}
                     Download CV{' '}
                     <HiDownload className='opacity-60 group-hover:translate-y-.2 transition' />
                 </a>
