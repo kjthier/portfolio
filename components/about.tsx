@@ -34,7 +34,7 @@ export default function About() {
                 <span className='font-medium'>copywriting and editing</span>.
             </p>
             <p>
-                I have a strong interest in software and programming, communication,
+                I have a passion for sophisticated design and programming, communication,
                 process efficiency, learning, creativity, and wellbeing,
                 and am a classical and contemporary dancer.
             </p>
